@@ -240,7 +240,3 @@ To run tests:
 2. Create a feature branch
 3. Commit changes
 4. Create a pull request
-
-## License
-
-[Your License Information]
