@@ -79,39 +79,6 @@ spring.datasource.password=your_password
 ./mvnw spring-boot:run
 ```
 
-## Project Structure
-
-```
-src/
-├── main/
-│   ├── java/
-│   │   └── io/reflectoring/TriosSpringBoot/
-│   │       ├── config/
-│   │       │   ├── SecurityConfig.java
-│   │       │   └── ThreeTriosConfig.java
-│   │       ├── controller/
-│   │       │   ├── GameController.java
-│   │       │   └── Features.java
-│   │       ├── model/
-│   │       │   ├── basic/
-│   │       │   ├── board/
-│   │       │   ├── battle/
-│   │       │   └── player/
-│   │       ├── service/
-│   │       │   └── GameService.java
-│   │       └── TriosSpringBootApplication.java
-│   └── resources/
-│       ├── db/migration/
-│       │   └── V1__init.sql
-│       ├── game-configs/
-│       │   ├── 3x3BoardNoHoles.txt
-│       │   └── CompleteCardSet.txt
-│       └── application.properties
-└── test/
-    └── java/
-        └── io/reflectoring/TriosSpringBoot/
-```
-
 ## API Endpoints
 
 ### Game Management
